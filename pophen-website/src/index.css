@@ -1,0 +1,33 @@
+:root {
+    --primary: #0f172a;
+    /* Dark slate main theme */
+    --secondary: #d9f99d;
+    /* Lime green accent */
+    --light: #f8fafc;
+    /* Light gray/white text and backgrounds */
+    --white: #ffffff;
+    --text-muted: #94a3b8;
+    --transition: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--primary);
+    color: var(--light);
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
